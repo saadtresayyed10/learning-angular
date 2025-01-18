@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +8,5 @@ import { Component, signal } from '@angular/core';
   styleUrl: './home.component.scss',
 })
 export class HomeComponent {
-  myVar = signal('Hello');
+  myVar = 'Hello';
 }

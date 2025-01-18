@@ -11,4 +11,8 @@ import { GreetingsComponent } from '../components/greetings/greetings.component'
 export class HomeComponent {
   myVar = 'Hello';
   message = 'How are you?';
+
+  keyUpHandler = (event: KeyboardEvent) => {
+    console.log(`key ${event.key}: was pressed.`);
+  };
 }

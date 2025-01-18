@@ -1,4 +1,5 @@
 <div class="main">
     <p>{{myVar}}, world!</p>
     <app-greetings [message]="message" />
+    <input type="text" (keyup)="keyUpHandler($event)">
 </div>
